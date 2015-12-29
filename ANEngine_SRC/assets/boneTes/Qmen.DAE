@@ -1,0 +1,2192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2014-10-31T14:27:48Z</created><keywords></keywords><modified>2014-10-31T14:27:48Z</modified><revision></revision><subject></subject><title></title><unit meter="0.001000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_images>
+    <image id="Map #2-image" name="Map #2"><init_from>wallpaper018-1920x1200.jpg</init_from></image>
+  </library_images>
+  <library_materials>
+    <material id="Material #26" name="Material #26">
+      <instance_effect url="#Material #26-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material #26-fx" name="Material #26">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Box001-lib" name="Box001Mesh">
+      <mesh>
+        <source id="Box001-POSITION">
+          <float_array id="Box001-POSITION-array" count="24">
+-29.787228 -27.355621 0.000000
+29.787228 -27.355621 0.000000
+-29.787228 27.355621 0.000000
+29.787228 27.355621 0.000000
+-29.787228 -27.355621 -70.516708
+29.787228 -27.355621 -70.516708
+-29.787228 27.355621 -70.516708
+29.787228 27.355621 -70.516708
+</float_array>
+          <technique_common>
+            <accessor source="#Box001-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box001-Normal0">
+          <float_array id="Box001-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box001-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box001-UV0">
+          <float_array id="Box001-UV0-array" count="48">
+1.000000 0.000000
+0.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box001-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box001-VERTEX">
+          <input semantic="POSITION" source="#Box001-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #26"><input semantic="VERTEX" offset="0" source="#Box001-VERTEX"/><input semantic="NORMAL" offset="1" source="#Box001-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Box001-UV0"/><p> 3 0 3 2 1 2 0 2 0 3 3 3 0 4 0 1 5 1 5 6 5 4 7 4 7 8 7 4 9 4 6 10 6 7 11 7 1 12 9 0 13 8 5 14 11 0 15 8 4 16 10 5 17 11 3 18 13 1 19 12 7 20 15 1 21 12 5 22 14 7 23 15 2 24 17 3 25 16 6 26 19 3 27 16 7 28 18 6 29 19 0 30 21 2 31 20 4 32 23 2 33 20 6 34 22 4 35 23</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box002-lib" name="Box002Mesh">
+      <mesh>
+        <source id="Box002-POSITION">
+          <float_array id="Box002-POSITION-array" count="24">
+-43.161087 -45.592693 0.000000
+43.161087 -45.592693 0.000000
+-43.161087 45.592693 0.000000
+43.161087 45.592693 0.000000
+-43.161087 -45.592693 -70.516708
+43.161087 -45.592693 -70.516708
+-43.161087 45.592693 -70.516708
+43.161087 45.592693 -70.516708
+</float_array>
+          <technique_common>
+            <accessor source="#Box002-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box002-Normal0">
+          <float_array id="Box002-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box002-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box002-UV0">
+          <float_array id="Box002-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box002-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box002-VERTEX">
+          <input semantic="POSITION" source="#Box002-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #26"><input semantic="VERTEX" offset="0" source="#Box002-VERTEX"/><input semantic="NORMAL" offset="1" source="#Box002-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Box002-UV0"/><p> 2 0 10 0 1 8 3 2 11 1 3 9 3 4 11 0 5 8 5 6 8 4 7 9 7 8 10 6 9 11 7 10 10 4 11 9 1 12 5 0 13 4 5 14 7 4 15 6 5 16 7 0 17 4 3 18 1 1 19 0 7 20 3 5 21 2 7 22 3 1 23 0 2 24 5 3 25 4 6 26 7 7 27 6 6 28 7 3 29 4 0 30 1 2 31 0 4 32 3 6 33 2 4 34 3 2 35 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box003-lib" name="Box003Mesh">
+      <mesh>
+        <source id="Box003-POSITION">
+          <float_array id="Box003-POSITION-array" count="24">
+-44.984795 -32.218842 0.000000
+44.984795 -32.218842 0.000000
+-44.984795 32.218842 0.000000
+44.984795 32.218842 0.000000
+-44.984795 -32.218842 -71.732506
+44.984795 -32.218842 -71.732506
+-44.984795 32.218842 -71.732506
+44.984795 32.218842 -71.732506
+</float_array>
+          <technique_common>
+            <accessor source="#Box003-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box003-Normal0">
+          <float_array id="Box003-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box003-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box003-UV0">
+          <float_array id="Box003-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box003-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box003-VERTEX">
+          <input semantic="POSITION" source="#Box003-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #26"><input semantic="VERTEX" offset="0" source="#Box003-VERTEX"/><input semantic="NORMAL" offset="1" source="#Box003-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Box003-UV0"/><p> 2 0 10 0 1 8 3 2 11 1 3 9 3 4 11 0 5 8 5 6 8 4 7 9 7 8 10 6 9 11 7 10 10 4 11 9 1 12 5 0 13 4 5 14 7 4 15 6 5 16 7 0 17 4 3 18 1 1 19 0 7 20 3 5 21 2 7 22 3 1 23 0 2 24 5 3 25 4 6 26 7 7 27 6 6 28 7 3 29 4 0 30 1 2 31 0 4 32 3 6 33 2 4 34 3 2 35 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box004-lib" name="Box004Mesh">
+      <mesh>
+        <source id="Box004-POSITION">
+          <float_array id="Box004-POSITION-array" count="24">
+-36.107567 -15.474670 0.000000
+36.107567 -15.474670 0.000000
+-36.107567 15.474670 0.000000
+36.107567 15.474670 0.000000
+-36.107567 -15.474670 -30.949350
+36.107567 -15.474670 -30.949350
+-36.107567 15.474670 -30.949350
+36.107567 15.474670 -30.949350
+</float_array>
+          <technique_common>
+            <accessor source="#Box004-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box004-Normal0">
+          <float_array id="Box004-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box004-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box004-UV0">
+          <float_array id="Box004-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box004-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box004-VERTEX">
+          <input semantic="POSITION" source="#Box004-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #26"><input semantic="VERTEX" offset="0" source="#Box004-VERTEX"/><input semantic="NORMAL" offset="1" source="#Box004-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Box004-UV0"/><p> 2 0 10 0 1 8 3 2 11 1 3 9 3 4 11 0 5 8 5 6 8 4 7 9 7 8 10 6 9 11 7 10 10 4 11 9 1 12 5 0 13 4 5 14 7 4 15 6 5 16 7 0 17 4 3 18 1 1 19 0 7 20 3 5 21 2 7 22 3 1 23 0 2 24 5 3 25 4 6 26 7 7 27 6 6 28 7 3 29 4 0 30 1 2 31 0 4 32 3 6 33 2 4 34 3 2 35 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box005-lib" name="Box005Mesh">
+      <mesh>
+        <source id="Box005-POSITION">
+          <float_array id="Box005-POSITION-array" count="24">
+-36.107567 -15.474670 0.000000
+36.107567 -15.474670 0.000000
+-36.107567 15.474670 0.000000
+36.107567 15.474670 0.000000
+-36.107567 -15.474670 -30.949350
+36.107567 -15.474670 -30.949350
+-36.107567 15.474670 -30.949350
+36.107567 15.474670 -30.949350
+</float_array>
+          <technique_common>
+            <accessor source="#Box005-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box005-Normal0">
+          <float_array id="Box005-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box005-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box005-UV0">
+          <float_array id="Box005-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box005-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box005-VERTEX">
+          <input semantic="POSITION" source="#Box005-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #26"><input semantic="VERTEX" offset="0" source="#Box005-VERTEX"/><input semantic="NORMAL" offset="1" source="#Box005-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Box005-UV0"/><p> 2 0 10 0 1 8 3 2 11 1 3 9 3 4 11 0 5 8 5 6 8 4 7 9 7 8 10 6 9 11 7 10 10 4 11 9 1 12 5 0 13 4 5 14 7 4 15 6 5 16 7 0 17 4 3 18 1 1 19 0 7 20 3 5 21 2 7 22 3 1 23 0 2 24 5 3 25 4 6 26 7 7 27 6 6 28 7 3 29 4 0 30 1 2 31 0 4 32 3 6 33 2 4 34 3 2 35 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box006-lib" name="Box006Mesh">
+      <mesh>
+        <source id="Box006-POSITION">
+          <float_array id="Box006-POSITION-array" count="24">
+-36.107567 -15.474670 0.000000
+36.107567 -15.474670 0.000000
+-36.107567 15.474670 0.000000
+36.107567 15.474670 0.000000
+-36.107567 -15.474670 -30.949350
+36.107567 -15.474670 -30.949350
+-36.107567 15.474670 -30.949350
+36.107567 15.474670 -30.949350
+</float_array>
+          <technique_common>
+            <accessor source="#Box006-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box006-Normal0">
+          <float_array id="Box006-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box006-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box006-UV0">
+          <float_array id="Box006-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box006-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box006-VERTEX">
+          <input semantic="POSITION" source="#Box006-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #26"><input semantic="VERTEX" offset="0" source="#Box006-VERTEX"/><input semantic="NORMAL" offset="1" source="#Box006-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Box006-UV0"/><p> 2 0 10 0 1 8 3 2 11 1 3 9 3 4 11 0 5 8 5 6 8 4 7 9 7 8 10 6 9 11 7 10 10 4 11 9 1 12 5 0 13 4 5 14 7 4 15 6 5 16 7 0 17 4 3 18 1 1 19 0 7 20 3 5 21 2 7 22 3 1 23 0 2 24 5 3 25 4 6 26 7 7 27 6 6 28 7 3 29 4 0 30 1 2 31 0 4 32 3 6 33 2 4 34 3 2 35 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box007-lib" name="Box007Mesh">
+      <mesh>
+        <source id="Box007-POSITION">
+          <float_array id="Box007-POSITION-array" count="24">
+-36.107567 -15.474670 0.000000
+36.107567 -15.474670 0.000000
+-36.107567 15.474670 0.000000
+36.107567 15.474670 0.000000
+-36.107567 -15.474670 -30.949350
+36.107567 -15.474670 -30.949350
+-36.107567 15.474670 -30.949350
+36.107567 15.474670 -30.949350
+</float_array>
+          <technique_common>
+            <accessor source="#Box007-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box007-Normal0">
+          <float_array id="Box007-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box007-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box007-UV0">
+          <float_array id="Box007-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box007-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box007-VERTEX">
+          <input semantic="POSITION" source="#Box007-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #26"><input semantic="VERTEX" offset="0" source="#Box007-VERTEX"/><input semantic="NORMAL" offset="1" source="#Box007-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Box007-UV0"/><p> 2 0 10 0 1 8 3 2 11 1 3 9 3 4 11 0 5 8 5 6 8 4 7 9 7 8 10 6 9 11 7 10 10 4 11 9 1 12 5 0 13 4 5 14 7 4 15 6 5 16 7 0 17 4 3 18 1 1 19 0 7 20 3 5 21 2 7 22 3 1 23 0 2 24 5 3 25 4 6 26 7 7 27 6 6 28 7 3 29 4 0 30 1 2 31 0 4 32 3 6 33 2 4 34 3 2 35 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box008-lib" name="Box008Mesh">
+      <mesh>
+        <source id="Box008-POSITION">
+          <float_array id="Box008-POSITION-array" count="24">
+-16.413372 -58.966557 0.000000
+16.413372 -58.966557 0.000000
+-16.413372 58.966557 0.000000
+16.413372 58.966557 0.000000
+-16.413372 -58.966557 -32.826736
+16.413372 -58.966557 -32.826736
+-16.413372 58.966557 -32.826736
+16.413372 58.966557 -32.826736
+</float_array>
+          <technique_common>
+            <accessor source="#Box008-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box008-Normal0">
+          <float_array id="Box008-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box008-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box008-UV0">
+          <float_array id="Box008-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box008-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box008-VERTEX">
+          <input semantic="POSITION" source="#Box008-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #26"><input semantic="VERTEX" offset="0" source="#Box008-VERTEX"/><input semantic="NORMAL" offset="1" source="#Box008-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Box008-UV0"/><p> 2 0 10 0 1 8 3 2 11 1 3 9 3 4 11 0 5 8 5 6 8 4 7 9 7 8 10 6 9 11 7 10 10 4 11 9 1 12 5 0 13 4 5 14 7 4 15 6 5 16 7 0 17 4 3 18 1 1 19 0 7 20 3 5 21 2 7 22 3 1 23 0 2 24 5 3 25 4 6 26 7 7 27 6 6 28 7 3 29 4 0 30 1 2 31 0 4 32 3 6 33 2 4 34 3 2 35 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box009-lib" name="Box009Mesh">
+      <mesh>
+        <source id="Box009-POSITION">
+          <float_array id="Box009-POSITION-array" count="24">
+-16.413372 -58.966557 0.000000
+16.413372 -58.966557 0.000000
+-16.413372 58.966557 0.000000
+16.413372 58.966557 0.000000
+-16.413372 -58.966557 -32.826736
+16.413372 -58.966557 -32.826736
+-16.413372 58.966557 -32.826736
+16.413372 58.966557 -32.826736
+</float_array>
+          <technique_common>
+            <accessor source="#Box009-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box009-Normal0">
+          <float_array id="Box009-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box009-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box009-UV0">
+          <float_array id="Box009-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box009-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box009-VERTEX">
+          <input semantic="POSITION" source="#Box009-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #26"><input semantic="VERTEX" offset="0" source="#Box009-VERTEX"/><input semantic="NORMAL" offset="1" source="#Box009-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Box009-UV0"/><p> 2 0 10 0 1 8 3 2 11 1 3 9 3 4 11 0 5 8 5 6 8 4 7 9 7 8 10 6 9 11 7 10 10 4 11 9 1 12 5 0 13 4 5 14 7 4 15 6 5 16 7 0 17 4 3 18 1 1 19 0 7 20 3 5 21 2 7 22 3 1 23 0 2 24 5 3 25 4 6 26 7 7 27 6 6 28 7 3 29 4 0 30 1 2 31 0 4 32 3 6 33 2 4 34 3 2 35 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box010-lib" name="Box010Mesh">
+      <mesh>
+        <source id="Box010-POSITION">
+          <float_array id="Box010-POSITION-array" count="24">
+-16.413372 -58.966557 0.000000
+16.413372 -58.966557 0.000000
+-16.413372 58.966557 0.000000
+16.413372 58.966557 0.000000
+-16.413372 -58.966557 -32.826736
+16.413372 -58.966557 -32.826736
+-16.413372 58.966557 -32.826736
+16.413372 58.966557 -32.826736
+</float_array>
+          <technique_common>
+            <accessor source="#Box010-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box010-Normal0">
+          <float_array id="Box010-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box010-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box010-UV0">
+          <float_array id="Box010-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box010-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box010-VERTEX">
+          <input semantic="POSITION" source="#Box010-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #26"><input semantic="VERTEX" offset="0" source="#Box010-VERTEX"/><input semantic="NORMAL" offset="1" source="#Box010-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Box010-UV0"/><p> 2 0 10 0 1 8 3 2 11 1 3 9 3 4 11 0 5 8 5 6 8 4 7 9 7 8 10 6 9 11 7 10 10 4 11 9 1 12 5 0 13 4 5 14 7 4 15 6 5 16 7 0 17 4 3 18 1 1 19 0 7 20 3 5 21 2 7 22 3 1 23 0 2 24 5 3 25 4 6 26 7 7 27 6 6 28 7 3 29 4 0 30 1 2 31 0 4 32 3 6 33 2 4 34 3 2 35 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Box011-lib" name="Box011Mesh">
+      <mesh>
+        <source id="Box011-POSITION">
+          <float_array id="Box011-POSITION-array" count="24">
+-16.413372 -58.966557 0.000000
+16.413372 -58.966557 0.000000
+-16.413372 58.966557 0.000000
+16.413372 58.966557 0.000000
+-16.413372 -58.966557 -32.826736
+16.413372 -58.966557 -32.826736
+-16.413372 58.966557 -32.826736
+16.413372 58.966557 -32.826736
+</float_array>
+          <technique_common>
+            <accessor source="#Box011-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box011-Normal0">
+          <float_array id="Box011-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box011-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box011-UV0">
+          <float_array id="Box011-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box011-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box011-VERTEX">
+          <input semantic="POSITION" source="#Box011-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #26"><input semantic="VERTEX" offset="0" source="#Box011-VERTEX"/><input semantic="NORMAL" offset="1" source="#Box011-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#Box011-UV0"/><p> 2 0 10 0 1 8 3 2 11 1 3 9 3 4 11 0 5 8 5 6 8 4 7 9 7 8 10 6 9 11 7 10 10 4 11 9 1 12 5 0 13 4 5 14 7 4 15 6 5 16 7 0 17 4 3 18 1 1 19 0 7 20 3 5 21 2 7 22 3 1 23 0 2 24 5 3 25 4 6 26 7 7 27 6 6 28 7 3 29 4 0 30 1 2 31 0 4 32 3 6 33 2 4 34 3 2 35 0</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Box001Controller">
+      <skin source="#Box001-lib">
+        <bind_shape_matrix>1.000000 -0.000000 0.000000 -0.999986 0.000000 1.000000 -0.000000 212.512054 0.000000 0.000000 1.000000 0.000009 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="Box001Controller-Joints">
+          <Name_array id="Box001Controller-Joints-array" count="1">
+ Bone001</Name_array>
+          <technique_common>
+            <accessor source="#Box001Controller-Joints-array" count="1">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box001Controller-Matrices">
+          <float_array id="Box001Controller-Matrices-array" count="16">
+
+0.003949 -0.999992 -0.000000 216.683000 0.999992 0.003949 0.000030 0.535576 -0.000030 -0.000000 1.000000 34.196692 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box001Controller-Matrices-array" count="1" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box001Controller-Weights">
+          <float_array id="Box001Controller-Weights-array" count="9">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box001Controller-Weights-array" count="9">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Box001Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Box001Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" offset="0" source="#Box001Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#Box001Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Box002Controller">
+      <skin source="#Box002-lib">
+        <bind_shape_matrix>1.000000 -0.000000 0.000000 0.266455 0.000000 0.636472 -0.000000 127.405685 0.000000 0.000000 1.000000 0.000006 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="Box002Controller-Joints">
+          <Name_array id="Box002Controller-Joints-array" count="3">
+ Bone002 Bone007(mirrored) Bone008</Name_array>
+          <technique_common>
+            <accessor source="#Box002Controller-Joints-array" count="3">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box002Controller-Matrices">
+          <float_array id="Box002Controller-Matrices-array" count="48">
+
+0.005176 -0.999987 -0.000000 136.869933 0.999987 0.005176 0.000025 0.367357 -0.000025 -0.000000 1.000000 34.196691 0.000000 0.000000 0.000000 1.000000
+-0.999937 -0.011196 -0.000000 0.457419 0.011196 -0.999937 -0.000000 136.869677 -0.000000 -0.000000 1.000000 34.196725 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000106 0.000000 -42.167637 -0.000106 1.000000 -0.000001 -137.377999 -0.000000 0.000001 1.000000 34.196616 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box002Controller-Matrices-array" count="3" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box002Controller-Weights">
+          <float_array id="Box002Controller-Weights-array" count="9">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box002Controller-Weights-array" count="9">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Box002Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Box002Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" offset="0" source="#Box002Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#Box002Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 0 2 1 3 2 4 0 5 0 6 1 7 2 8</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Box003Controller">
+      <skin source="#Box003-lib">
+        <bind_shape_matrix>1.000000 -0.000000 0.000000 -0.393059 0.000000 1.000000 -0.000000 49.594154 0.000000 0.000000 1.000000 0.000002 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="Box003Controller-Joints">
+          <Name_array id="Box003Controller-Joints-array" count="3">
+ Bone003(mirrored) Bone003 Bone002</Name_array>
+          <technique_common>
+            <accessor source="#Box003Controller-Joints-array" count="3">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box003Controller-Matrices">
+          <float_array id="Box003Controller-Matrices-array" count="48">
+
+-0.870349 -0.492436 -0.000023 21.031994 0.492436 -0.870349 0.000013 38.378803 -0.000027 0.000000 1.000000 34.196661 0.000000 0.000000 0.000000 1.000000
+0.876018 -0.482278 0.000022 21.624678 0.482278 0.876018 0.000012 -38.048017 -0.000025 0.000000 1.000000 34.196654 0.000000 0.000000 0.000000 1.000000
+0.005176 -0.999987 -0.000000 136.869933 0.999987 0.005176 0.000025 0.367357 -0.000025 -0.000000 1.000000 34.196691 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box003Controller-Matrices-array" count="3" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box003Controller-Weights">
+          <float_array id="Box003Controller-Weights-array" count="9">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box003Controller-Weights-array" count="9">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Box003Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Box003Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" offset="0" source="#Box003Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#Box003Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 1 2 2 3 2 4 0 5 1 6 2 7 2 8</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Box004Controller">
+      <skin source="#Box004-lib">
+        <bind_shape_matrix>1.000000 -0.000000 0.000000 96.832710 0.000000 1.000000 -0.000000 133.359451 0.000000 0.000000 1.000000 -18.969736 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="Box004Controller-Joints">
+          <Name_array id="Box004Controller-Joints-array" count="1">
+ Bone008</Name_array>
+          <technique_common>
+            <accessor source="#Box004Controller-Joints-array" count="1">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box004Controller-Matrices">
+          <float_array id="Box004Controller-Matrices-array" count="16">
+
+1.000000 0.000106 0.000000 -42.167637 -0.000106 1.000000 -0.000001 -137.377999 -0.000000 0.000001 1.000000 34.196616 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box004Controller-Matrices-array" count="1" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box004Controller-Weights">
+          <float_array id="Box004Controller-Weights-array" count="9">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box004Controller-Weights-array" count="9">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Box004Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Box004Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" offset="0" source="#Box004Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#Box004Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Box005Controller">
+      <skin source="#Box005-lib">
+        <bind_shape_matrix>1.000000 -0.000000 0.000000 196.487717 0.000000 1.000000 -0.000000 133.359451 0.000000 0.000000 1.000000 -18.969736 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="Box005Controller-Joints">
+          <Name_array id="Box005Controller-Joints-array" count="2">
+ Bone009 Bone010</Name_array>
+          <technique_common>
+            <accessor source="#Box005Controller-Joints-array" count="2">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box005Controller-Matrices">
+          <float_array id="Box005Controller-Matrices-array" count="32">
+
+0.999793 0.020311 0.000000 -149.809922 -0.020311 0.999793 -0.000001 -134.378492 -0.000000 0.000001 1.000000 34.196616 0.000000 0.000000 0.000000 1.000000
+0.999793 0.020311 0.000000 -232.823965 -0.020311 0.999793 -0.000001 -134.377950 -0.000000 0.000001 1.000000 34.196616 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box005Controller-Matrices-array" count="2" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box005Controller-Weights">
+          <float_array id="Box005Controller-Weights-array" count="9">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box005Controller-Weights-array" count="9">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Box005Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Box005Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" offset="0" source="#Box005Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#Box005Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 1 2 0 3 1 4 0 5 1 6 0 7 1 8</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Box006Controller">
+      <skin source="#Box006-lib">
+        <bind_shape_matrix>1.000000 0.000000 0.000000 -95.958115 0.000000 -1.000000 0.000000 132.423035 0.000000 -0.000000 -1.000000 -50.215614 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="Box006Controller-Joints">
+          <Name_array id="Box006Controller-Joints-array" count="1">
+ Bone008(mirrored)</Name_array>
+          <technique_common>
+            <accessor source="#Box006Controller-Joints-array" count="1">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box006Controller-Matrices">
+          <float_array id="Box006Controller-Matrices-array" count="16">
+
+-0.999884 -0.015219 -0.000000 -42.222580 0.015219 -0.999884 -0.000000 137.040679 -0.000000 -0.000000 1.000000 34.196703 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box006Controller-Matrices-array" count="1" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box006Controller-Weights">
+          <float_array id="Box006Controller-Weights-array" count="9">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box006Controller-Weights-array" count="9">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Box006Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Box006Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" offset="0" source="#Box006Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#Box006Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Box007Controller">
+      <skin source="#Box007-lib">
+        <bind_shape_matrix>1.000000 0.000000 0.000000 -195.613129 0.000000 -1.000000 0.000000 132.423035 0.000000 -0.000000 -1.000000 -50.215614 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="Box007Controller-Joints">
+          <Name_array id="Box007Controller-Joints-array" count="1">
+ Bone009(mirrored)</Name_array>
+          <technique_common>
+            <accessor source="#Box007Controller-Joints-array" count="1">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box007Controller-Matrices">
+          <float_array id="Box007Controller-Matrices-array" count="16">
+
+-0.999987 0.004985 -0.000000 -149.858000 -0.004985 -0.999987 -0.000000 134.040222 -0.000000 -0.000000 1.000000 34.196694 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box007Controller-Matrices-array" count="1" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box007Controller-Weights">
+          <float_array id="Box007Controller-Weights-array" count="9">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box007Controller-Weights-array" count="9">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Box007Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Box007Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" offset="0" source="#Box007Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#Box007Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Box008Controller">
+      <skin source="#Box008-lib">
+        <bind_shape_matrix>1.000000 -0.000000 0.000000 -60.121552 0.000000 1.000000 -0.000000 -56.001965 0.000000 0.000000 1.000000 -18.234516 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="Box008Controller-Joints">
+          <Name_array id="Box008Controller-Joints-array" count="2">
+ Bone004(mirrored) Bone003(mirrored)</Name_array>
+          <technique_common>
+            <accessor source="#Box008Controller-Joints-array" count="2">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box008Controller-Matrices">
+          <float_array id="Box008Controller-Matrices-array" count="32">
+
+-0.004709 -0.999989 -0.000003 9.378649 0.999989 -0.004709 0.000025 60.898363 -0.000025 -0.000003 1.000000 34.196787 0.000000 0.000000 0.000000 1.000000
+-0.870349 -0.492436 -0.000023 21.031994 0.492436 -0.870349 0.000013 38.378803 -0.000027 0.000000 1.000000 34.196661 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box008Controller-Matrices-array" count="2" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box008Controller-Weights">
+          <float_array id="Box008Controller-Weights-array" count="9">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box008Controller-Weights-array" count="9">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Box008Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Box008Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" offset="0" source="#Box008Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#Box008Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 0 2 0 3 1 4 0 5 0 6 0 7 1 8</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Box009Controller">
+      <skin source="#Box009-lib">
+        <bind_shape_matrix>1.000000 -0.000000 0.000000 -60.121552 0.000000 1.000000 -0.000000 -216.314301 0.000000 0.000000 1.000000 -18.234524 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="Box009Controller-Joints">
+          <Name_array id="Box009Controller-Joints-array" count="1">
+ Bone005(mirrored)</Name_array>
+          <technique_common>
+            <accessor source="#Box009Controller-Joints-array" count="1">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box009Controller-Matrices">
+          <float_array id="Box009Controller-Matrices-array" count="16">
+
+-0.003619 -0.999993 -0.000003 -124.128633 0.999993 -0.003619 0.000023 61.033420 -0.000023 -0.000003 1.000000 34.196875 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box009Controller-Matrices-array" count="1" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box009Controller-Weights">
+          <float_array id="Box009Controller-Weights-array" count="9">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box009Controller-Weights-array" count="9">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Box009Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Box009Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" offset="0" source="#Box009Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#Box009Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Box010Controller">
+      <skin source="#Box010-lib">
+        <bind_shape_matrix>1.000000 -0.000000 0.000000 59.291439 0.000000 1.000000 -0.000000 -56.001965 0.000000 0.000000 1.000000 -18.234516 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="Box010Controller-Joints">
+          <Name_array id="Box010Controller-Joints-array" count="2">
+ Bone004 Bone003</Name_array>
+          <technique_common>
+            <accessor source="#Box010Controller-Joints-array" count="2">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box010Controller-Matrices">
+          <float_array id="Box010Controller-Matrices-array" count="32">
+
+0.016341 -0.999866 0.000003 9.386009 0.999866 0.016341 0.000022 -60.219809 -0.000022 0.000003 1.000000 34.196473 0.000000 0.000000 0.000000 1.000000
+0.876018 -0.482278 0.000022 21.624678 0.482278 0.876018 0.000012 -38.048017 -0.000025 0.000000 1.000000 34.196654 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box010Controller-Matrices-array" count="2" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box010Controller-Weights">
+          <float_array id="Box010Controller-Weights-array" count="9">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box010Controller-Weights-array" count="9">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Box010Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Box010Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" offset="0" source="#Box010Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#Box010Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 0 2 1 3 0 4 0 5 0 6 1 7 0 8</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Box011Controller">
+      <skin source="#Box011-lib">
+        <bind_shape_matrix>1.000000 -0.000000 0.000000 59.291439 0.000000 1.000000 -0.000000 -213.946442 0.000000 0.000000 1.000000 -18.234524 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="Box011Controller-Joints">
+          <Name_array id="Box011Controller-Joints-array" count="2">
+ Bone006 Bone005</Name_array>
+          <technique_common>
+            <accessor source="#Box011Controller-Joints-array" count="2">
+              <param type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box011Controller-Matrices">
+          <float_array id="Box011Controller-Matrices-array" count="32">
+
+0.015251 -0.999884 0.000003 -273.163321 0.999884 0.015251 0.000016 -60.355162 -0.000016 0.000003 1.000000 34.195946 0.000000 0.000000 0.000000 1.000000
+0.015251 -0.999884 0.000003 -124.122016 0.999884 0.015251 0.000019 -60.355055 -0.000019 0.000003 1.000000 34.196287 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box011Controller-Matrices-array" count="2" stride="16">
+              <param type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box011Controller-Weights">
+          <float_array id="Box011Controller-Weights-array" count="9">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Box011Controller-Weights-array" count="9">
+              <param type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Box011Controller-Joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Box011Controller-Matrices"/>
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" offset="0" source="#Box011Controller-Joints"/>
+          <input semantic="WEIGHT" offset="1" source="#Box011Controller-Weights"/>
+          <vcount>1 1 1 1 1 1 1 1</vcount>
+          <v>0 1 0 2 1 3 1 4 0 5 0 6 1 7 1 8</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_animations>
+    <animation id="Bone001-anim" name="Bone001"><animation><source id="Bone001-Matrix-animation-input"><float_array id="Bone001-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone001-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone001-Matrix-animation-output-transform"><float_array id="Bone001-Matrix-animation-output-transform-array" count="336">
+
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000
+0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone001-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone001-Interpolations"><Name_array id="Bone001-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone001-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone001-Matrix-animation-transform"><input semantic="INPUT" source="#Bone001-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone001-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone001-Interpolations"/></sampler><channel source="#Bone001-Matrix-animation-transform" target="Bone001/matrix"/></animation></animation>
+    <animation id="Bone002-anim" name="Bone002"><animation><source id="Bone002-Matrix-animation-input"><float_array id="Bone002-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone002-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone002-Matrix-animation-output-transform"><float_array id="Bone002-Matrix-animation-output-transform-array" count="336">
+
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone002-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone002-Interpolations"><Name_array id="Bone002-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone002-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone002-Matrix-animation-transform"><input semantic="INPUT" source="#Bone002-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone002-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone002-Interpolations"/></sampler><channel source="#Bone002-Matrix-animation-transform" target="Bone002/matrix"/></animation></animation>
+    <animation id="Bone003-anim" name="Bone003"><animation><source id="Bone003-Matrix-animation-input"><float_array id="Bone003-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone003-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone003-Matrix-animation-output-transform"><float_array id="Bone003-Matrix-animation-output-transform-array" count="336">
+
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone003-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone003-Interpolations"><Name_array id="Bone003-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone003-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone003-Matrix-animation-transform"><input semantic="INPUT" source="#Bone003-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone003-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone003-Interpolations"/></sampler><channel source="#Bone003-Matrix-animation-transform" target="Bone003/matrix"/></animation></animation>
+    <animation id="Bone004-anim" name="Bone004"><animation><source id="Bone004-Matrix-animation-input"><float_array id="Bone004-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone004-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone004-Matrix-animation-output-transform"><float_array id="Bone004-Matrix-animation-output-transform-array" count="336">
+
+0.496529 0.868020 0.000000 69.236252 -0.868020 0.496529 0.000003 -0.000031 0.000003 -0.000002 1.000000 0.000004 0.000000 0.000000 0.000000 1.000000
+0.496512 0.868020 -0.004136 69.236252 -0.867990 0.496529 0.007235 -0.000031 0.008334 -0.000002 0.999965 0.000004 0.000000 0.000000 0.000000 1.000000
+0.496272 0.868020 -0.015973 69.236252 -0.867571 0.496529 0.027927 -0.000031 0.032172 -0.000002 0.999482 0.000004 0.000000 0.000000 0.000000 1.000000
+0.495319 0.868020 -0.034634 69.236252 -0.865906 0.496529 0.060549 -0.000031 0.069755 -0.000002 0.997564 0.000004 0.000000 0.000000 0.000000 1.000000
+0.492987 0.868020 -0.059198 69.236252 -0.861829 0.496529 0.103492 -0.000031 0.119226 -0.000002 0.992867 0.000004 0.000000 0.000000 0.000000 1.000000
+0.488547 0.868020 -0.088673 69.236252 -0.854066 0.496529 0.155019 -0.000031 0.178588 -0.000002 0.983924 0.000004 0.000000 0.000000 0.000000 1.000000
+0.481312 0.868020 -0.121981 69.236252 -0.841418 0.496529 0.213248 -0.000031 0.245670 -0.000002 0.969353 0.000004 0.000000 0.000000 0.000000 1.000000
+0.470732 0.868020 -0.157963 69.236252 -0.822921 0.496529 0.276151 -0.000031 0.318138 -0.000002 0.948044 0.000004 0.000000 0.000000 0.000000 1.000000
+0.456461 0.868020 -0.195408 69.236252 -0.797973 0.496529 0.341610 -0.000031 0.393550 -0.000002 0.919303 0.000004 0.000000 0.000000 0.000000 1.000000
+0.438417 0.868020 -0.233092 69.236252 -0.766428 0.496529 0.407489 -0.000031 0.469446 -0.000002 0.882962 0.000004 0.000000 0.000000 0.000000 1.000000
+0.416803 0.868020 -0.269844 69.236252 -0.728644 0.496529 0.471739 -0.000031 0.543464 -0.000002 0.839432 0.000004 0.000000 0.000000 0.000000 1.000000
+0.392116 0.868020 -0.304607 69.236252 -0.685487 0.496529 0.532511 -0.000031 0.613476 -0.000002 0.789713 0.000004 0.000000 0.000000 0.000000 1.000000
+0.365119 0.868020 -0.336495 69.236252 -0.638290 0.496529 0.588256 -0.000031 0.677698 -0.000002 0.735340 0.000004 0.000000 0.000000 0.000000 1.000000
+0.336796 0.868020 -0.364842 69.236252 -0.588776 0.496529 0.637811 -0.000031 0.734787 -0.000002 0.678298 0.000004 0.000000 0.000000 0.000000 1.000000
+0.308296 0.868020 -0.389223 69.236252 -0.538953 0.496529 0.680433 -0.000031 0.783890 -0.000002 0.620900 0.000004 0.000000 0.000000 0.000000 1.000000
+0.280867 0.868020 -0.409457 69.236252 -0.491001 0.496529 0.715805 -0.000031 0.824640 -0.000002 0.565657 0.000004 0.000000 0.000000 0.000000 1.000000
+0.255791 0.868020 -0.425572 69.236252 -0.447165 0.496529 0.743978 -0.000031 0.857097 -0.000002 0.515155 0.000004 0.000000 0.000000 0.000000 1.000000
+0.234333 0.868020 -0.437754 69.236252 -0.409653 0.496529 0.765274 -0.000031 0.881631 -0.000002 0.471940 0.000004 0.000000 0.000000 0.000000 1.000000
+0.217697 0.868020 -0.446261 69.236252 -0.380570 0.496529 0.780145 -0.000031 0.898763 -0.000002 0.438435 0.000004 0.000000 0.000000 0.000000 1.000000
+0.206995 0.868020 -0.451324 69.236252 -0.361861 0.496529 0.788997 -0.000031 0.908961 -0.000002 0.416882 0.000004 0.000000 0.000000 0.000000 1.000000
+0.203228 0.868020 -0.453033 69.236252 -0.355276 0.496529 0.791984 -0.000031 0.912402 -0.000002 0.409295 0.000004 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone004-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone004-Interpolations"><Name_array id="Bone004-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone004-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone004-Matrix-animation-transform"><input semantic="INPUT" source="#Bone004-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone004-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone004-Interpolations"/></sampler><channel source="#Bone004-Matrix-animation-transform" target="Bone004/matrix"/></animation></animation>
+    <animation id="Bone005-anim" name="Bone005"><animation><source id="Bone005-Matrix-animation-input"><float_array id="Bone005-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone005-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone005-Matrix-animation-output-transform"><float_array id="Bone005-Matrix-animation-output-transform-array" count="336">
+
+0.999999 0.001090 0.000000 133.573715 -0.001090 0.999999 0.000003 -0.000206 -0.000000 -0.000003 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999984 0.001179 0.005567 133.573730 -0.001179 0.999999 -0.000000 -0.000206 -0.005567 -0.000006 0.999985 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999768 0.001432 0.021498 133.573715 -0.001432 0.999999 -0.000016 -0.000206 -0.021498 -0.000015 0.999769 0.000000 0.000000 0.000000 0.000000 1.000000
+0.998910 0.001832 0.046630 133.573730 -0.001831 0.999998 -0.000056 -0.000206 -0.046630 -0.000029 0.998912 -0.000000 0.000000 0.000000 0.000000 1.000000
+0.996810 0.002358 0.079772 133.573730 -0.002354 0.999997 -0.000140 -0.000206 -0.079772 -0.000048 0.996813 0.000004 0.000000 0.000000 0.000000 1.000000
+0.992807 0.002993 0.119689 133.573715 -0.002979 0.999995 -0.000289 -0.000202 -0.119690 -0.000070 0.992811 0.000004 0.000000 0.000000 0.000000 1.000000
+0.986270 0.003716 0.165097 133.573730 -0.003680 0.999993 -0.000520 -0.000202 -0.165097 -0.000095 0.986277 -0.000000 0.000000 0.000000 0.000000 1.000000
+0.976679 0.004509 0.214658 133.573730 -0.004430 0.999990 -0.000849 -0.000206 -0.214659 -0.000122 0.976689 -0.000004 0.000000 0.000000 0.000000 1.000000
+0.963681 0.005353 0.267003 133.573730 -0.005199 0.999986 -0.001285 -0.000206 -0.267006 -0.000150 0.963695 -0.000004 0.000000 0.000000 0.000000 1.000000
+0.947142 0.006231 0.320753 133.573730 -0.005958 0.999980 -0.001831 -0.000206 -0.320759 -0.000177 0.947161 -0.000002 0.000000 0.000000 0.000000 1.000000
+0.927176 0.007123 0.374557 133.573730 -0.006680 0.999974 -0.002479 -0.000206 -0.374565 -0.000204 0.927201 -0.000004 0.000000 0.000000 0.000000 1.000000
+0.904157 0.008012 0.427125 133.573730 -0.007341 0.999968 -0.003216 -0.000210 -0.427137 -0.000228 0.904186 -0.000008 0.000000 0.000000 0.000000 1.000000
+0.878709 0.008880 0.477275 133.573730 -0.007922 0.999960 -0.004019 -0.000206 -0.477291 -0.000249 0.878745 0.000008 0.000000 0.000000 0.000000 1.000000
+0.851692 0.009710 0.523953 133.573730 -0.008410 0.999953 -0.004860 -0.000206 -0.523975 -0.000268 0.851733 0.000004 0.000000 0.000000 0.000000 1.000000
+0.824159 0.010484 0.566262 133.573730 -0.008801 0.999945 -0.005704 -0.000202 -0.566290 -0.000283 0.824206 -0.000005 0.000000 0.000000 0.000000 1.000000
+0.797314 0.011187 0.603460 133.573730 -0.009097 0.999937 -0.006517 -0.000206 -0.603495 -0.000294 0.797366 0.000007 0.000000 0.000000 0.000000 1.000000
+0.772462 0.011800 0.634951 133.573730 -0.009307 0.999930 -0.007259 -0.000206 -0.634992 -0.000302 0.772519 0.000003 0.000000 0.000000 0.000000 1.000000
+0.750949 0.012306 0.660245 133.573730 -0.009446 0.999924 -0.007894 -0.000210 -0.660292 -0.000308 0.751009 0.000003 0.000000 0.000000 0.000000 1.000000
+0.734107 0.012689 0.678916 133.573730 -0.009528 0.999919 -0.008387 -0.000202 -0.678967 -0.000312 0.734168 -0.000005 0.000000 0.000000 0.000000 1.000000
+0.723194 0.012932 0.690523 133.573730 -0.009570 0.999916 -0.008704 -0.000206 -0.690578 -0.000314 0.723258 -0.000000 0.000000 0.000000 0.000000 1.000000
+0.719338 0.013017 0.694538 133.573730 -0.009583 0.999915 -0.008815 -0.000202 -0.694594 -0.000314 0.719402 0.000008 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone005-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone005-Interpolations"><Name_array id="Bone005-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone005-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone005-Matrix-animation-transform"><input semantic="INPUT" source="#Bone005-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone005-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone005-Interpolations"/></sampler><channel source="#Bone005-Matrix-animation-transform" target="Bone005/matrix"/></animation></animation>
+    <animation id="Bone006-anim" name="Bone006"><animation><source id="Bone006-Matrix-animation-input"><float_array id="Bone006-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone006-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone006-Matrix-animation-output-transform"><float_array id="Bone006-Matrix-animation-output-transform-array" count="336">
+
+1.000000 -0.000000 0.000001 149.041275 -0.000000 1.000000 0.000003 -0.000000 -0.000001 -0.000003 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000001 149.041351 -0.000000 1.000000 0.000003 -0.000000 -0.000001 -0.000003 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000001 149.041290 -0.000000 1.000000 0.000003 0.000004 -0.000001 -0.000003 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000001 149.041321 -0.000000 1.000000 0.000003 0.000004 -0.000001 -0.000003 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000001 149.041306 -0.000000 1.000000 0.000003 0.000008 -0.000001 -0.000003 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000001 149.041321 -0.000000 1.000000 0.000003 0.000000 -0.000001 -0.000003 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000001 149.041306 0.000000 1.000000 0.000003 0.000011 -0.000001 -0.000003 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000001 149.041336 -0.000000 1.000000 0.000003 0.000004 -0.000001 -0.000003 1.000000 -0.000001 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000001 149.041290 -0.000000 1.000000 0.000003 0.000004 -0.000001 -0.000003 1.000000 -0.000003 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000001 149.041321 0.000000 1.000000 0.000003 0.000000 -0.000001 -0.000003 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000001 149.041306 0.000000 1.000000 0.000003 0.000008 -0.000001 -0.000003 1.000000 0.000006 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000001 149.041306 0.000000 1.000000 0.000003 0.000008 -0.000001 -0.000003 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000001 149.041321 0.000000 1.000000 0.000003 0.000000 -0.000001 -0.000003 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000001 149.041306 -0.000000 1.000000 0.000003 0.000004 -0.000001 -0.000003 1.000000 0.000008 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000001 149.041306 -0.000000 1.000000 0.000003 0.000000 -0.000001 -0.000003 1.000000 -0.000008 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000001 149.041321 0.000000 1.000000 0.000003 0.000004 -0.000001 -0.000003 1.000000 -0.000008 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000001 149.041321 0.000000 1.000000 0.000003 0.000004 -0.000001 -0.000003 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000001 149.041306 0.000000 1.000000 0.000003 0.000004 -0.000001 -0.000003 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000001 149.041336 -0.000000 1.000000 0.000003 0.000004 -0.000001 -0.000003 1.000000 0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000001 149.041306 -0.000000 1.000000 0.000003 0.000004 -0.000001 -0.000003 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000001 149.041321 0.000000 1.000000 0.000003 0.000000 -0.000001 -0.000003 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone006-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone006-Interpolations"><Name_array id="Bone006-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone006-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone006-Matrix-animation-transform"><input semantic="INPUT" source="#Bone006-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone006-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone006-Interpolations"/></sampler><channel source="#Bone006-Matrix-animation-transform" target="Bone006/matrix"/></animation></animation>
+    <animation id="Bone003(mirrored)-anim" name="Bone003(mirrored)"><animation><source id="Bone003(mirrored)-Matrix-animation-input"><float_array id="Bone003(mirrored)-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone003(mirrored)-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone003(mirrored)-Matrix-animation-output-transform"><float_array id="Bone003(mirrored)-Matrix-animation-output-transform-array" count="336">
+
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000
+0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone003(mirrored)-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone003(mirrored)-Interpolations"><Name_array id="Bone003(mirrored)-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone003(mirrored)-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone003(mirrored)-Matrix-animation-transform"><input semantic="INPUT" source="#Bone003(mirrored)-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone003(mirrored)-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone003(mirrored)-Interpolations"/></sampler><channel source="#Bone003(mirrored)-Matrix-animation-transform" target="Bone003(mirrored)/matrix"/></animation></animation>
+    <animation id="Bone004(mirrored)-anim" name="Bone004(mirrored)"><animation><source id="Bone004(mirrored)-Matrix-animation-input"><float_array id="Bone004(mirrored)-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone004(mirrored)-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone004(mirrored)-Matrix-animation-output-transform"><float_array id="Bone004(mirrored)-Matrix-animation-output-transform-array" count="336">
+
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000
+0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone004(mirrored)-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone004(mirrored)-Interpolations"><Name_array id="Bone004(mirrored)-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone004(mirrored)-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone004(mirrored)-Matrix-animation-transform"><input semantic="INPUT" source="#Bone004(mirrored)-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone004(mirrored)-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone004(mirrored)-Interpolations"/></sampler><channel source="#Bone004(mirrored)-Matrix-animation-transform" target="Bone004(mirrored)/matrix"/></animation></animation>
+    <animation id="Bone005(mirrored)-anim" name="Bone005(mirrored)"><animation><source id="Bone005(mirrored)-Matrix-animation-input"><float_array id="Bone005(mirrored)-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone005(mirrored)-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone005(mirrored)-Matrix-animation-output-transform"><float_array id="Bone005(mirrored)-Matrix-animation-output-transform-array" count="336">
+
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone005(mirrored)-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone005(mirrored)-Interpolations"><Name_array id="Bone005(mirrored)-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone005(mirrored)-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone005(mirrored)-Matrix-animation-transform"><input semantic="INPUT" source="#Bone005(mirrored)-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone005(mirrored)-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone005(mirrored)-Interpolations"/></sampler><channel source="#Bone005(mirrored)-Matrix-animation-transform" target="Bone005(mirrored)/matrix"/></animation></animation>
+    <animation id="Bone007-anim" name="Bone007"><animation><source id="Bone007-Matrix-animation-input"><float_array id="Bone007-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone007-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone007-Matrix-animation-output-transform"><float_array id="Bone007-Matrix-animation-output-transform-array" count="336">
+
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone007-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone007-Interpolations"><Name_array id="Bone007-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone007-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone007-Matrix-animation-transform"><input semantic="INPUT" source="#Bone007-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone007-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone007-Interpolations"/></sampler><channel source="#Bone007-Matrix-animation-transform" target="Bone007/matrix"/></animation></animation>
+    <animation id="Bone008-anim" name="Bone008"><animation><source id="Bone008-Matrix-animation-input"><float_array id="Bone008-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone008-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone008-Matrix-animation-output-transform"><float_array id="Bone008-Matrix-animation-output-transform-array" count="336">
+
+0.999968 0.008048 0.000000 43.231106 -0.008048 0.999968 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999899 0.014252 0.000000 43.231106 -0.014252 0.999899 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999488 0.032004 0.000000 43.231106 -0.032004 0.999488 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.998199 0.059999 0.000000 43.231106 -0.059999 0.998199 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.995295 0.096894 0.000000 43.231106 -0.096894 0.995295 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.989969 0.141285 0.000000 43.231106 -0.141285 0.989969 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.981454 0.191697 0.000000 43.231106 -0.191697 0.981454 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.969121 0.246586 0.000000 43.231106 -0.246586 0.969121 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.952555 0.304366 0.000000 43.231106 -0.304366 0.952555 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.931618 0.363439 0.000000 43.231106 -0.363439 0.931618 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.906480 0.422248 0.000000 43.231106 -0.422248 0.906480 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.877635 0.479330 0.000000 43.231106 -0.479330 0.877635 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.845884 0.533366 0.000000 43.231106 -0.533366 0.845884 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.812312 0.583224 0.000000 43.231106 -0.583224 0.812312 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.778228 0.627982 0.000000 43.231106 -0.627982 0.778228 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.745115 0.666936 0.000000 43.231106 -0.666936 0.745115 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.714560 0.699575 0.000000 43.231106 -0.699575 0.714560 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.688184 0.725536 0.000000 43.231106 -0.725536 0.688184 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.667583 0.744536 0.000000 43.231106 -0.744536 0.667583 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.654257 0.756272 0.000000 43.231106 -0.756272 0.654257 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.649553 0.760316 0.000000 43.231106 -0.760316 0.649553 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone008-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone008-Interpolations"><Name_array id="Bone008-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone008-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone008-Matrix-animation-transform"><input semantic="INPUT" source="#Bone008-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone008-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone008-Interpolations"/></sampler><channel source="#Bone008-Matrix-animation-transform" target="Bone008/matrix"/></animation></animation>
+    <animation id="Bone009-anim" name="Bone009"><animation><source id="Bone009-Matrix-animation-input"><float_array id="Bone009-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone009-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone009-Matrix-animation-output-transform"><float_array id="Bone009-Matrix-animation-output-transform-array" count="336">
+
+0.999796 -0.020205 0.000000 104.896667 0.020205 0.999796 -0.000000 -0.000061 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 -0.000000 104.896683 0.020205 0.999796 -0.000000 -0.000061 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 0.000000 104.896667 0.020205 0.999796 0.000000 -0.000076 -0.000000 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 0.000000 104.896683 0.020205 0.999796 -0.000000 -0.000061 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 0.000000 104.896667 0.020205 0.999796 -0.000000 -0.000076 -0.000000 0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 0.000000 104.896667 0.020205 0.999796 -0.000000 -0.000061 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 0.000000 104.896683 0.020205 0.999796 -0.000000 -0.000046 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 -0.000000 104.896667 0.020205 0.999796 -0.000000 -0.000061 0.000000 0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 -0.000000 104.896690 0.020205 0.999796 0.000000 -0.000046 0.000000 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 0.000000 104.896667 0.020205 0.999796 -0.000000 -0.000061 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 0.000000 104.896667 0.020205 0.999796 -0.000000 -0.000061 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 0.000000 104.896667 0.020205 0.999796 -0.000000 -0.000061 -0.000000 0.000000 1.000000 0.000004 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 0.000000 104.896667 0.020205 0.999796 0.000000 -0.000046 -0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 -0.000000 104.896660 0.020205 0.999796 -0.000000 -0.000046 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 -0.000000 104.896652 0.020205 0.999796 -0.000000 -0.000046 0.000000 0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 0.000000 104.896667 0.020205 0.999796 -0.000000 -0.000061 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 -0.000000 104.896652 0.020205 0.999796 -0.000000 -0.000061 0.000000 0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 -0.000000 104.896667 0.020205 0.999796 -0.000000 -0.000061 0.000000 0.000000 1.000000 0.000004 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 0.000000 104.896675 0.020205 0.999796 -0.000000 -0.000069 0.000000 0.000000 1.000000 0.000004 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 0.000000 104.896667 0.020205 0.999796 -0.000000 -0.000061 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.999796 -0.020205 -0.000000 104.896652 0.020205 0.999796 0.000000 -0.000061 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone009-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone009-Interpolations"><Name_array id="Bone009-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone009-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone009-Matrix-animation-transform"><input semantic="INPUT" source="#Bone009-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone009-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone009-Interpolations"/></sampler><channel source="#Bone009-Matrix-animation-transform" target="Bone009/matrix"/></animation></animation>
+    <animation id="Bone010-anim" name="Bone010"><animation><source id="Bone010-Matrix-animation-input"><float_array id="Bone010-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone010-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone010-Matrix-animation-output-transform"><float_array id="Bone010-Matrix-animation-output-transform-array" count="336">
+
+1.000000 -0.000000 0.000000 83.014069 -0.000000 1.000000 -0.000000 -0.000534 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000000 83.014069 0.000000 1.000000 0.000000 -0.000549 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 -0.000000 83.014038 0.000000 1.000000 0.000000 -0.000549 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 -0.000000 83.014038 0.000000 1.000000 0.000000 -0.000549 0.000000 -0.000000 1.000000 0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000000 83.014069 0.000000 1.000000 -0.000000 -0.000549 -0.000000 0.000000 1.000000 0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 83.014038 -0.000000 1.000000 -0.000000 -0.000549 -0.000000 0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 -0.000000 83.014061 0.000000 1.000000 0.000000 -0.000534 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 -0.000000 83.014061 -0.000000 1.000000 0.000000 -0.000549 0.000000 -0.000000 1.000000 0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 83.014038 -0.000000 1.000000 0.000000 -0.000565 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 83.014038 -0.000000 1.000000 0.000000 -0.000565 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 -0.000000 83.014038 -0.000000 1.000000 0.000000 -0.000549 0.000000 0.000000 1.000000 0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 83.014053 -0.000000 1.000000 0.000000 -0.000549 -0.000000 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 -0.000000 83.014038 0.000000 1.000000 0.000000 -0.000565 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 -0.000000 83.014069 0.000000 1.000000 0.000000 -0.000549 0.000000 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 -0.000000 83.014061 -0.000000 1.000000 0.000000 -0.000534 0.000000 -0.000000 1.000000 0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000000 83.014069 0.000000 1.000000 -0.000000 -0.000534 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 83.014061 0.000000 1.000000 0.000000 -0.000542 -0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 83.014046 -0.000000 1.000000 0.000000 -0.000549 -0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 83.014053 -0.000000 1.000000 -0.000000 -0.000557 -0.000000 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 -0.000000 83.014046 -0.000000 1.000000 0.000000 -0.000557 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 -0.000000 83.014053 0.000000 1.000000 0.000000 -0.000549 0.000000 -0.000000 1.000000 0.000004 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone010-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone010-Interpolations"><Name_array id="Bone010-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone010-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone010-Matrix-animation-transform"><input semantic="INPUT" source="#Bone010-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone010-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone010-Interpolations"/></sampler><channel source="#Bone010-Matrix-animation-transform" target="Bone010/matrix"/></animation></animation>
+    <animation id="Bone007(mirrored)-anim" name="Bone007(mirrored)"><animation><source id="Bone007(mirrored)-Matrix-animation-input"><float_array id="Bone007(mirrored)-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone007(mirrored)-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone007(mirrored)-Matrix-animation-output-transform"><float_array id="Bone007(mirrored)-Matrix-animation-output-transform-array" count="336">
+
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone007(mirrored)-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone007(mirrored)-Interpolations"><Name_array id="Bone007(mirrored)-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone007(mirrored)-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone007(mirrored)-Matrix-animation-transform"><input semantic="INPUT" source="#Bone007(mirrored)-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone007(mirrored)-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone007(mirrored)-Interpolations"/></sampler><channel source="#Bone007(mirrored)-Matrix-animation-transform" target="Bone007(mirrored)/matrix"/></animation></animation>
+    <animation id="Bone008(mirrored)-anim" name="Bone008(mirrored)"><animation><source id="Bone008(mirrored)-Matrix-animation-input"><float_array id="Bone008(mirrored)-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone008(mirrored)-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone008(mirrored)-Matrix-animation-output-transform"><float_array id="Bone008(mirrored)-Matrix-animation-output-transform-array" count="336">
+
+0.611109 -0.791547 -0.000000 43.231102 0.791547 0.611109 -0.000000 0.000015 0.000000 -0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.615709 -0.787974 -0.000000 43.231102 0.787974 0.615709 -0.000000 0.000015 0.000000 -0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.628757 -0.777601 -0.000000 43.231102 0.777601 0.628757 -0.000000 0.000015 0.000000 -0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.648996 -0.760792 -0.000000 43.231102 0.760792 0.648996 -0.000000 0.000015 0.000000 -0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.675032 -0.737788 -0.000000 43.231102 0.737788 0.675032 -0.000000 0.000015 0.000000 -0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.705397 -0.708812 -0.000000 43.231102 0.708812 0.705397 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.738595 -0.674150 -0.000000 43.231102 0.674150 0.738595 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.773156 -0.634215 -0.000000 43.231102 0.634215 0.773156 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.807698 -0.589596 -0.000000 43.231102 0.589596 0.807698 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.840975 -0.541074 -0.000000 43.231102 0.541074 0.840975 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.871931 -0.489628 -0.000000 43.231102 0.489628 0.871931 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.899744 -0.436418 -0.000000 43.231102 0.436418 0.899744 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.923853 -0.382748 -0.000000 43.231102 0.382748 0.923853 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.943971 -0.330028 -0.000000 43.231102 0.330028 0.943971 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.960078 -0.279731 -0.000000 43.231102 0.279731 0.960078 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.972395 -0.233343 -0.000000 43.231102 0.233343 0.972395 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.981330 -0.192333 -0.000000 43.231102 0.192333 0.981330 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.987419 -0.158128 -0.000000 43.231102 0.158128 0.987419 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.991237 -0.132098 -0.000000 43.231102 0.132098 0.991237 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.993301 -0.115557 -0.000000 43.231102 0.115557 0.993301 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000
+0.993957 -0.109770 -0.000000 43.231102 0.109770 0.993957 -0.000000 0.000015 0.000000 0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone008(mirrored)-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone008(mirrored)-Interpolations"><Name_array id="Bone008(mirrored)-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone008(mirrored)-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone008(mirrored)-Matrix-animation-transform"><input semantic="INPUT" source="#Bone008(mirrored)-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone008(mirrored)-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone008(mirrored)-Interpolations"/></sampler><channel source="#Bone008(mirrored)-Matrix-animation-transform" target="Bone008(mirrored)/matrix"/></animation></animation>
+    <animation id="Bone009(mirrored)-anim" name="Bone009(mirrored)"><animation><source id="Bone009(mirrored)-Matrix-animation-input"><float_array id="Bone009(mirrored)-Matrix-animation-input-array" count="21">
+
+0.000000 0.033333 0.066667 0.100000 0.133333 0.166667 0.200000 0.233333 0.266667 0.300000 0.333333 0.366667 0.400000 0.433333 0.466667 0.500000
+0.533333 0.566667 0.600000 0.633333 0.666667</float_array><technique_common><accessor source="#Bone009(mirrored)-Matrix-animation-input-array" count="21"><param name="TIME" type="float"/></accessor></technique_common></source><source id="Bone009(mirrored)-Matrix-animation-output-transform"><float_array id="Bone009(mirrored)-Matrix-animation-output-transform-array" count="336">
+
+0.999796 0.020204 0.000000 104.896713 -0.020204 0.999796 -0.000000 0.000076 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896713 -0.020204 0.999796 -0.000000 0.000061 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896729 -0.020204 0.999796 -0.000000 0.000061 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896713 -0.020204 0.999796 -0.000000 0.000069 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896706 -0.020204 0.999796 -0.000000 0.000092 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896706 -0.020204 0.999796 -0.000000 0.000061 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896721 -0.020204 0.999796 -0.000000 0.000061 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896713 -0.020204 0.999796 -0.000000 0.000076 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896713 -0.020204 0.999796 -0.000000 0.000061 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896713 -0.020204 0.999796 -0.000000 0.000076 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896698 -0.020204 0.999796 -0.000000 0.000061 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896713 -0.020204 0.999796 -0.000000 0.000061 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896713 -0.020204 0.999796 -0.000000 0.000076 -0.000000 0.000000 1.000000 -0.000019 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896698 -0.020204 0.999796 -0.000000 0.000076 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896706 -0.020204 0.999796 -0.000000 0.000061 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896729 -0.020204 0.999796 -0.000000 0.000076 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896713 -0.020204 0.999796 -0.000000 0.000092 -0.000000 0.000000 1.000000 -0.000019 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896729 -0.020204 0.999796 -0.000000 0.000061 -0.000000 0.000000 1.000000 -0.000019 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896713 -0.020204 0.999796 -0.000000 0.000061 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896706 -0.020204 0.999796 -0.000000 0.000061 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000
+0.999796 0.020204 0.000000 104.896713 -0.020204 0.999796 -0.000000 0.000076 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#Bone009(mirrored)-Matrix-animation-output-transform-array" count="21" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="Bone009(mirrored)-Interpolations"><Name_array id="Bone009(mirrored)-Interpolations-array" count="21">
+ LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#Bone009(mirrored)-Interpolations-array" count="21"><param type="name"/></accessor></technique_common></source><sampler id="Bone009(mirrored)-Matrix-animation-transform"><input semantic="INPUT" source="#Bone009(mirrored)-Matrix-animation-input"/><input semantic="OUTPUT" source="#Bone009(mirrored)-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#Bone009(mirrored)-Interpolations"/></sampler><channel source="#Bone009(mirrored)-Matrix-animation-transform" target="Bone009(mirrored)/matrix"/></animation></animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Box001" id="Box001" sid="Box001"><instance_controller url="#Box001Controller"><bind_material><technique_common><instance_material symbol="Material #26" target="#Material #26"/></technique_common></bind_material></instance_controller><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Box002" id="Box002" sid="Box002"><instance_controller url="#Box002Controller"><bind_material><technique_common><instance_material symbol="Material #26" target="#Material #26"/></technique_common></bind_material></instance_controller><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Box003" id="Box003" sid="Box003"><instance_controller url="#Box003Controller"><bind_material><technique_common><instance_material symbol="Material #26" target="#Material #26"/></technique_common></bind_material></instance_controller><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Box004" id="Box004" sid="Box004"><instance_controller url="#Box004Controller"><bind_material><technique_common><instance_material symbol="Material #26" target="#Material #26"/></technique_common></bind_material></instance_controller><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Box005" id="Box005" sid="Box005"><instance_controller url="#Box005Controller"><bind_material><technique_common><instance_material symbol="Material #26" target="#Material #26"/></technique_common></bind_material></instance_controller><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Box006" id="Box006" sid="Box006"><instance_controller url="#Box006Controller"><bind_material><technique_common><instance_material symbol="Material #26" target="#Material #26"/></technique_common></bind_material></instance_controller><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Box007" id="Box007" sid="Box007"><instance_controller url="#Box007Controller"><bind_material><technique_common><instance_material symbol="Material #26" target="#Material #26"/></technique_common></bind_material></instance_controller><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Box008" id="Box008" sid="Box008"><instance_controller url="#Box008Controller"><bind_material><technique_common><instance_material symbol="Material #26" target="#Material #26"/></technique_common></bind_material></instance_controller><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Box009" id="Box009" sid="Box009"><instance_controller url="#Box009Controller"><bind_material><technique_common><instance_material symbol="Material #26" target="#Material #26"/></technique_common></bind_material></instance_controller><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Box010" id="Box010" sid="Box010"><instance_controller url="#Box010Controller"><bind_material><technique_common><instance_material symbol="Material #26" target="#Material #26"/></technique_common></bind_material></instance_controller><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Box011" id="Box011" sid="Box011"><instance_controller url="#Box011Controller"><bind_material><technique_common><instance_material symbol="Material #26" target="#Material #26"/></technique_common></bind_material></instance_controller><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Bone001" id="Bone001" sid="Bone001" type="JOINT"><matrix sid="matrix">0.003949 0.999992 -0.000030 -1.390128 -0.999992 0.003949 -0.000000 216.679214 -0.000000 0.000030 1.000000 -34.196682 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Bone002" id="Bone002" sid="Bone002" type="JOINT"><matrix sid="matrix">0.999999 -0.001228 -0.000000 79.813614 0.001228 0.999999 0.000006 -0.000001 0.000000 -0.000006 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Bone003" id="Bone003" sid="Bone003" type="JOINT"><matrix sid="matrix">0.486806 -0.873510 -0.000000 93.107605 0.873510 0.486806 0.000002 -0.000005 -0.000002 -0.000001 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Bone004" id="Bone004" sid="Bone004" type="JOINT"><matrix sid="matrix">0.496529 0.868020 0.000000 69.236252 -0.868020 0.496529 0.000003 -0.000031 0.000003 -0.000002 1.000000 0.000004 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Bone005" id="Bone005" sid="Bone005" type="JOINT"><matrix sid="matrix">0.999999 0.001090 0.000000 133.573715 -0.001090 0.999999 0.000003 -0.000206 -0.000000 -0.000003 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Bone006" id="Bone006" sid="Bone006" type="JOINT"><matrix sid="matrix">1.000000 -0.000000 0.000001 149.041275 -0.000000 1.000000 0.000003 -0.000000 -0.000001 -0.000003 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node></node></node><node name="Bone003(mirrored)" id="Bone003(mirrored)" sid="Bone003(mirrored)" type="JOINT"><matrix sid="matrix">0.487924 0.872886 -0.000000 93.107605 -0.872886 0.487924 0.000000 -0.000005 0.000000 0.000000 1.000000 0.000019 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Bone004(mirrored)" id="Bone004(mirrored)" sid="Bone004(mirrored)" type="JOINT"><matrix sid="matrix">0.496529 -0.868020 -0.000002 69.236244 0.868020 0.496529 0.000005 0.000027 -0.000003 -0.000004 1.000000 0.000027 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Bone005(mirrored)" id="Bone005(mirrored)" sid="Bone005(mirrored)" type="JOINT"><matrix sid="matrix">1.000000 -0.001090 -0.000000 133.573761 0.001090 0.999999 0.000002 0.000240 0.000000 -0.000002 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node></node></node><node name="Bone007" id="Bone007" sid="Bone007" type="JOINT"><matrix sid="matrix">-0.007993 -0.999968 -0.000001 79.813614 0.999968 -0.007993 0.000033 -0.000000 -0.000033 -0.000000 1.000000 -0.000004 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Bone008" id="Bone008" sid="Bone008" type="JOINT"><matrix sid="matrix">0.999968 0.008048 0.000000 43.231106 -0.008048 0.999968 -0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Bone009" id="Bone009" sid="Bone009" type="JOINT"><matrix sid="matrix">0.999796 -0.020205 0.000000 104.896667 0.020205 0.999796 -0.000000 -0.000061 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Bone010" id="Bone010" sid="Bone010" type="JOINT"><matrix sid="matrix">1.000000 -0.000000 0.000000 83.014069 -0.000000 1.000000 -0.000000 -0.000534 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node></node></node><node name="Bone007(mirrored)" id="Bone007(mirrored)" sid="Bone007(mirrored)" type="JOINT"><matrix sid="matrix">0.007247 0.999974 0.000000 79.813583 -0.999974 0.007247 0.000033 0.000000 0.000033 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Bone008(mirrored)" id="Bone008(mirrored)" sid="Bone008(mirrored)" type="JOINT"><matrix sid="matrix">0.611109 -0.791547 -0.000000 43.231102 0.791547 0.611109 -0.000000 0.000015 0.000000 -0.000000 1.000000 0.000015 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="Bone009(mirrored)" id="Bone009(mirrored)" sid="Bone009(mirrored)" type="JOINT"><matrix sid="matrix">0.999796 0.020204 0.000000 104.896713 -0.020204 0.999796 -0.000000 0.000076 -0.000000 0.000000 1.000000 -0.000015 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
